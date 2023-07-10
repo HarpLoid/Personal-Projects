@@ -16,5 +16,7 @@ int main(void)
     }
     putchar('\n');
 
+    printf("%c", str[len - 1]);
+
     return (0);
 }
