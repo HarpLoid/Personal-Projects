@@ -9,8 +9,16 @@ int _strlen(char *str)
     return (i);
 }
 
-int is_delimiter(const char *delim)
+int is_delimiter(const char *delim, char c)
 {
+    while (*delim)
+    {
+        if (c == *delim)
+            return (1);
+        delim++;
+    }
+
+    return (0);
 }
 
 /*int *line_length()*/
