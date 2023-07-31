@@ -1,0 +1,5 @@
+{
+    "C_Cpp.default.cStandard": "gnu89",
+    "C_Cpp.default.customConfigurationVariables": {},
+    "C_Cpp.doxygen.generatedStyle": "/**"
+}
